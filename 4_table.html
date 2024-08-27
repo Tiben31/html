@@ -1,5 +1,42 @@
-<table border="1" class="dataframe">
-  <thead>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau Stylisé</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: center; /* Centrer le texte dans les cellules */
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        thead tr {
+            background-color: #e0e0e0; /* Gris clair pour les en-têtes de colonnes */
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9; /* Couleur de fond pour les lignes paires */
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff; /* Couleur de fond pour les lignes impaires */
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Données des Stations Météo</caption>
+<thead>
     <tr style="text-align: right;">
       <th>Station</th>
       <th>Station name</th>
@@ -29,4 +66,7 @@
       <td>6</td>
     </tr>
   </tbody>
+    
 </table>
+</body>
+</html>
