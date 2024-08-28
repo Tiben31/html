@@ -25068,7 +25068,7 @@
 
         
             
-                var html_9a5dfd179e3ec6b1256911823f4a7b29 = $(`<div id="html_9a5dfd179e3ec6b1256911823f4a7b29" style="width: 100.0%; height: 100.0%;"> Station name: 11-station-meteo-toulouse-soupetard<br> Surface Bâtiments: 60021.08 m²<br> Hauteur moyenne des bâtiments: 3.0 m<br> Surface Zones Humides:: 576.28 m²<br> Surface Espaces Verts: 8452.34 m²<br> Nombre d'arbres: 4<br> Surface Zones Piétonnes + Parking: 2653.05 m²<br> Surface diverses (non categorisée): 211040.59 m²<br> Densité de population:  8.46 h/m²<br> Nb entreprises: 103 </div>`)[0];
+                var html_9a5dfd179e3ec6b1256911823f4a7b29 = $(`<div id="html_9a5dfd179e3ec6b1256911823f4a7b29" style="width: 100.0%; height: 100.0%;"> Station name: 11-station-meteo-toulouse-soupetard<br> Surface Bâtiments: 60021.08 m²<br> Hauteur moyenne des bâtiments: 3.0 m<br> Surface Zones Humides:: 576.28 m²<br> Surface Espaces Verts: 8452.34 m²<br> Nombre d'arbres: 4<br> Surface Zones Piétonnes + Parking: 2653.05 m²<br> Surface diverses (non categorisée): 211040.59 m²<br> Densité de population:  8458 h/Km²<br> Nb entreprises: 103 </div>`)[0];
                 popup_fb5e10d0f4e249aee2a4564fb8074dd5.setContent(html_9a5dfd179e3ec6b1256911823f4a7b29);
             
         
@@ -25085,8 +25085,11 @@
             ).addTo(map_ac3a8528216fdb9b0f17bbdb3ca0400e);
         
 </script>
-
-        <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau Stylisé</title>
+    <style>
         table {
             width: 100%;
             border-collapse: collapse;
@@ -25121,22 +25124,22 @@
     <thead>
     <tr style="text-align: right;">
       <th>Station</th>
-      <th>Station name</th>
-      <th>Surface Bâtiments</th>
-      <th>Hauteur moyenne des bâtiments</th>
-      <th>Surface Zones Humides:</th>
-      <th>Surface Espaces Verts</th>
+      
+      <th>Surface Bâtiments en m²</th>
+      <th>Hauteur moyenne des bâtiments en m</th>
+      <th>Surface Zones Humides en m²:</th>
+      <th>Surface Espaces Verts en m²</th>
       <th>Nombre d'arbres</th>
-      <th>Surface Zones Piétonnes + Parking</th>
-      <th>Surface diverses (non categorisée)</th>
-      <th>Densité de population</th>
+      <th>Surface Zones Piétonnes + Parking en m²</th>
+      <th>Surface diverses (non categorisée) en m²</th>
+      <th>Densité de population en h/Km²</th>
       <th>Nb entreprises</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>11</td>
-      <td>11-station-meteo-toulouse-soupetard</td>
+    
       <td>60021.08</td>
       <td>3.0</td>
       <td>576.28</td>
@@ -25144,7 +25147,7 @@
       <td>4</td>
       <td>2653.05</td>
       <td>211040.59</td>
-      <td>8.46</td>
+      <td>8458</td>
       <td>103</td>
     </tr>
   </tbody>
