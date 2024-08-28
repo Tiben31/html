@@ -28,7 +28,7 @@
                 #map_a5182175ad35f835c90646bae0f0303e {
                     position: relative;
                     width: 100.0%;
-                    height: 100.0%;
+                    height: 85.0%;
                     left: 0.0%;
                     top: 0.0%;
                 }
@@ -36652,4 +36652,72 @@
             ).addTo(map_a5182175ad35f835c90646bae0f0303e);
         
 </script>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau Stylisé</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: center; /* Centrer le texte dans les cellules */
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        thead tr {
+            background-color: #e0e0e0; /* Gris clair pour les en-têtes de colonnes */
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9; /* Couleur de fond pour les lignes paires */
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff; /* Couleur de fond pour les lignes impaires */
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       
+   <thead>
+    <tr style="text-align: right;">
+      <th>Station</th>
+      
+      <th>Surface Bâtiments en m²</th>
+      <th>Hauteur moyenne des bâtiments en m</th>
+      <th>Surface Zones Humides en m²:</th>
+      <th>Surface Espaces Verts en m²</th>
+      <th>Nombre d'arbres</th>
+      <th>Surface Zones Piétonnes + Parking en m²</th>
+      <th>Surface diverses (non categorisée) en m²</th>
+      <th>Densité de population en h/Km²</th>
+      <th>Nb entreprises</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>27</td>
+      
+      <td>118744.78</td>
+      <td>4.93</td>
+      <td>367.55</td>
+      <td>33858.29</td>
+      <td>401</td>
+      <td>13849.15</td>
+      <td>115923.57</td>
+      <td>9280</td>
+      <td>891</td>
+    </tr>
+  </tbody>
+</table>
+</body>
 </html>
